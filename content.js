@@ -196,7 +196,7 @@
             label: 'Ortalama Çalışma Saatleri',
             data: Array(dataValues.length).fill(averageHours),
             borderColor: 'rgb(255, 55, 132)', 
-            backgroundColor: 'rgb(255, 55, 132)',
+            backgroundColor: 'rgb(255, 55, 132,0)',
             borderDash: [10, 5],
             fill: false,
             tension: 0.4,
@@ -205,7 +205,7 @@
             label: 'Hedef Saat',
             data: Array(dataValues.length).fill(110),
             borderColor: 'rgb(143, 190, 0)', // İstediğiniz renge göre ayarlayabilirsiniz
-            backgroundColor: 'rgb(143, 190, 0)',
+            backgroundColor: 'rgb(143, 190, 0,0)',
             fill: false,
             tension: 0.4,
             borderDash: [5, 5], // Kesikli çizgi için
